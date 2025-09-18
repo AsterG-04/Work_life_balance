@@ -1,0 +1,119 @@
+/* General Layout */
+.main {
+    width: 80%;
+    margin: auto;
+}
+
+/* Content area */
+.content {
+    min-height: calc(100vh - 60px); /* Ensures footer stays at bottom */
+    padding-bottom: 50px;
+}
+
+/* Table styles */
+.content table {
+    margin-top: 5px;
+    border: 2px solid #ddd; /* Slightly darker border */
+    border-radius: 8px;
+    background-color: #fff;
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15); /* Softer shadow */
+}
+
+.content table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    padding: 12px; /* Increased padding */
+}
+
+.content table td {
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    padding: 12px; /* Increased padding */
+}
+
+.content table tr:hover {
+    background-color: #e0f7fa; /* Softer highlight color */
+}
+
+/* Styles for Action Buttons */
+.content table td:last-child {
+    text-align: center; /* Center buttons */
+}
+
+.content table input[type="submit"] {
+    background-color: lightblue;
+    border-radius: 5px;
+    padding: 8px 12px; /* More padding for buttons */
+}
+
+.content table input[type="submit"]:hover {
+    background-color: deepskyblue;
+}
+
+/* Form styles */
+.content form {
+    margin-top: 5px;
+}
+
+/* Input styles */
+.content input[type="text"],
+.content input[type="date"] {
+    width: calc(100% - 20px); /* Full width minus padding */
+}
+
+/* General Button Styles */
+.content button {
+    color: black;
+    border: none;
+    padding: 8px 12px; /* Adjust padding for better usability */
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px; /* Ensure text is readable */
+    font-weight: bold;
+}
+
+/* Edit Button Styles */
+.content button.edit-btn {
+    background-color: lightblue;
+}
+
+.content button.edit-btn:hover {
+    background-color: grey; /* Hover effect for edit button */
+    color: white; /* Change text color on hover */
+}
+
+/* Delete Button Styles */
+.content button.delete-btn {
+    background-color: salmon;
+}
+
+.content button.delete-btn:hover {
+    background-color: red; /* Hover effect for delete button */
+    color: white; /* Change text color on hover */
+}
+
+
+/* Footer */
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 80%;
+}
+
+.back-btn {
+    background-color: lightpink;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.back-btn:hover {
+    background-color: gray; /* Darker shade on hover */
+    color: white; /* Change text color on hover */
+}

@@ -1,0 +1,130 @@
+/* General Layout */
+.main {
+    width: 80%;
+    margin: auto;
+}
+
+/* Content area */
+.content1 {
+    min-height: calc(100vh - 60px); /* Ensures footer stays at bottom */
+    padding-bottom: 50px;
+    position: relative; /* Add relative positioning */
+}
+
+/* Table styles */
+.content1 table {
+    margin-top: 5px;
+    border: 2px solid #ddd; /* Slightly darker border */
+    border-radius: 8px;
+    background-color: #fff;
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.content1 table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.content1 table td {
+    border-bottom: 1px solid #ddd;
+}
+
+.content1 table tr:hover {
+   background-color: #e0f7fa; /* Softer highlight color */
+}
+
+/* Styles for Action Buttons */
+.content1 table td:last-child {
+   text-align: center; /* Center buttons */
+}
+
+.content1 table input[type="submit"] {
+   background-color: lightblue;
+   border-radius: 5px;
+   padding: 8px 12px; /* More padding for buttons */
+}
+
+.content1 table input[type="submit"]:hover {
+   background-color: deepskyblue;
+}
+
+/* Form styles */
+.content1 form {
+   margin-top: 5px;
+}
+
+/* Input styles */
+.content1 input[type="text"],
+.content1 input[type="number"],
+.content1 input[type="date"],
+.content1 input[type="datetime-local"],
+.content1 textarea,
+.content1 input[type="file"] {
+   width: calc(100% - 20px); /* Full width minus padding */
+   padding: 10px; /* Padding for better usability */
+   border-radius: 5px; /* Rounded corners for inputs */
+   border: 1px solid #ccc; /* Light border for inputs */
+}
+
+/* General Button Styles */
+.content1 button {
+   color: black;
+   border: none;
+   padding: 8px 12px; /* Adjust padding for better usability */
+   cursor: pointer;
+   border-radius: 5px;
+   font-size: 14px; /* Ensure text is readable */
+   font-weight: bold;
+   display: inline-block; /* Ensure it's displayed */
+}
+
+/* Edit Button Styles */
+.content1 button.edit-btn {
+   background-color: lightblue;
+}
+
+.content1 button.edit-btn:hover {
+   background-color: grey; /* Hover effect for edit button */
+   color: white; /* Change text color on hover */
+}
+
+/* Delete Button Styles */
+.content1 button.delete-btn {
+   background-color: salmon;
+}
+
+.content1 button.delete-btn:hover {
+   background-color: red; /* Hover effect for delete button */
+   color: white; /* Change text color on hover */
+}
+
+/* Warning Message Style */
+.warning-message {
+   color: red; /* Warning message color */
+}
+
+/* Footer */
+.footer {
+   position: relative;
+   bottom: 0;
+   width: 80%;
+}
+
+.back-btn {
+    background-color: lightpink;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.back-btn:hover {
+    background-color: gray; /* Darker shade on hover */
+    color: white; /* Change text color on hover */
+}
+
+

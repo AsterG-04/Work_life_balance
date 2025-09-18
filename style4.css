@@ -1,0 +1,125 @@
+/* Import Playfair Display font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* General Content Styling */
+.content3 {
+    min-height: calc(100vh - 60px - 50px); /* Adjusted for footer height */
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content3 form {
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    padding: 20px;
+    width: 40%; /* Adjust width for smaller forms */
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.content3 table {
+    width: 100%;
+}
+
+.content3 table td {
+    padding: 10px;
+}
+
+/* Input Fields */
+.content3 input[type="text"],
+.content3 input[type="password"] {
+    width: 95%;
+    height: 25px;
+    border-radius: 15px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+}
+
+/* Submit Button */
+.content3 input[type="submit"] {
+    background-color: lightgreen;
+    border-radius: 8px;
+    width: 50%;
+    height: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.content3 input[type="submit"]:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+/* Error Message */
+p {
+    color: red;
+    text-align: center;
+}
+
+/* General Content Styling */
+.content {
+    background-color: paleturquoise;
+    min-height: calc(100vh - 60px - 50px); /* Adjusted min-height to account for footer height */
+    padding-bottom: 70px; /* Increased padding to ensure content scrolls above footer */
+    margin-left: 200px; /* Space for sidebar */
+    position: relative; /* Required for absolute positioning of background */
+    z-index: 1; /* Ensure content is above the background */
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 200px;
+    position: fixed; /* Keep sidebar fixed on the left */
+    top: 60px; /* Start below the nav bar (assuming nav bar height is 60px) */
+    left: 0;
+    height: 100vh; /* Extend to the full viewport height */
+    background-color: #333;
+    color: white;
+    overflow-y: auto; /* Enable scrolling for long sidebars */
+    z-index: 2; /* Ensure sidebar is above the background */
+}
+
+.sidebar a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.sidebar a:hover {
+    background-color: #555; /* Change background on hover */
+}
+
+
+.A{
+    font-family: 'Playfair+Display', serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-wrap: wrap;
+}
+
+.back-btn {
+    background-color: lightpink;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.back-btn:hover {
+    background-color: gray; /* Darker shade on hover */
+    color: white; /* Change text color on hover */
+}
+
+h2{
+    font-family: 'Playfair+Display', serif;
+    font-weight: bold;
+    font-size: 52px;
+}

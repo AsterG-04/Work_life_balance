@@ -1,0 +1,157 @@
+/* General Layout */
+.main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Content Area */
+.content {
+    min-height: calc(100vh - 60px); /* Ensures footer stays at bottom */
+    padding-bottom: 50px;
+}
+
+/* Common Form Styles */
+.content form,
+.content1 {
+    margin-top: 5px;
+    border: 1px solid #ddd; /* Softer border */
+    border-radius: 5px; /* Slightly rounded corners */
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+    background-color: #fff; /* Clean white background */
+    box-shadow: none; /* Remove box shadow */
+}
+
+/* Status Table */
+.content .Status {
+    width: 200px; /* Reduced width for Admin Name table */
+    height: 5%;
+    text-align: center;
+    margin-top: 5px;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Main Table */
+.content table {
+    margin-top: 5px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.content table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.content table td {
+    padding: 25px; /* More spacing */
+    vertical-align: top; /* Align top */
+}
+
+/* label alignment */
+.content table td:first-child {
+    text-align: right; /* Right-align labels */
+    width: 10%;
+    padding-right: 50px;
+}
+
+.content table th,
+.content table td {
+    text-align: left;
+}
+
+.content table tr:hover {
+    background-color: transparent; /* Remove hover */
+}
+
+/* Consistent Input Field Styles (including textarea) */
+.content input[type="text"],
+.content input[type="password"],
+.content input[type="number"],
+.content input[type="date"],
+.content input[type="email"],
+.content textarea,
+.content1 input[type="text"],
+.content1 input[type="password"],
+.content1 input[type="number"],
+.content1 input[type="date"],
+.content1 input[type="email"],
+.content1 textarea {
+    width: 200%;
+    height: 50px; /* Slightly taller input */
+    border-radius: 10px; /* Rounded corners on inputs */
+    padding: 5px 10%;
+    padding-left: 30px;
+    margin-bottom: 8px; /* More vertical spacing */
+    border: 1px solid #ddd; /* Lighter border */
+    font-size: 14px; /* Slightly larger font */
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* white  background for input */
+}
+
+/* Textarea specific style */
+.content textarea,
+.content1 textarea {
+    padding-left: 50px;
+    height: 100px;
+    width: 200% /* Taller Textareas */
+    border-radius: 5px;  /* Match text area border radius */
+}
+
+/* Consistent Button Styles */
+.content input[type="submit"],
+.content input[type="reset"],
+.content button,
+.content1 input[type="submit"],
+.content1 input[type="reset"],
+.content1 button {
+    background-color: paleturquoise; /* Lighter button background */
+    border-radius: 5px; /* Rounded corners on buttons */
+    cursor: pointer;
+    padding: 8px 12px; /* Better padding */
+    font-size: 14px; /* Larger font */
+    border: 1px solid seagreen;
+    color: #333; /* Darker text */
+}
+
+.content input[type="submit"]:hover,
+.content input[type="reset"]:hover,
+.content button:hover,
+.content1 input[type="submit"]:hover,
+.content1 input[type="reset"]:hover,
+.content1 button:hover {
+    background-color: lightgreen; /* Slight hover effect */
+}
+
+/* Footer */
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.back-btn {
+    background-color: lightgray;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.back-btn:hover {
+    background-color: gray; /* Darker shade on hover */
+    color: white; /* Change text color on hover */
+}

@@ -1,0 +1,122 @@
+.yoga{
+	height: auto;
+	width: 100%;
+	margin: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.mycontainer{
+  width:100%;
+  overflow:auto;
+}
+
+.mycontainer .a{
+  margin-left: 12.2%;
+  width: 16%;
+  border: 2px solid Teal;
+  padding: 15px;
+  margin: 20px;
+  display: inline-block;
+  background-color:turquoise;
+}
+
+.mycontainer .a:hover{
+	background-color: #83f8ec;
+}
+
+.mycontainer .a{
+	transition: all 0.3s ease 0s;
+}
+
+.mycontainer .b{
+  width: 16%;
+  border: 2px solid green;
+  padding: 15px;
+  margin: 10px;
+  display: inline-block;
+  background-color:lightgreen;
+}
+
+.mycontainer .b:hover{
+	background-color: #c5fac5;
+}
+
+.mycontainer .b{
+	transition: all 0.3s ease 0s;
+}
+
+.mycontainer .c{
+  width: 18%;
+  border: 2px solid yellow;
+  padding: 15px;
+  margin: 10px;
+  display: inline-block;
+  background-color:lightgoldenrodyellow;
+}
+
+.mycontainer .c:hover{
+	background-color: #f4f4e4;
+}
+
+.mycontainer .c{
+	transition: all 0.3s ease 0s;
+}
+
+.mycontainer .d{
+  width: 18%;
+  border: 2px solid salmon;
+  padding: 15px;
+  margin: 10px;
+  display: inline-block;
+  background-color:lightsalmon;
+}
+
+.mycontainer .d:hover{
+	background-color: #facfbe;
+}
+
+.mycontainer .d{
+	transition: all 0.3s ease 0s;
+}
+
+.mycontainer .e{
+  width: 18%;
+  border: 2px solid lavenderblush;
+  padding: 15px;
+  margin: 10px;
+  display: inline-block;
+  background-color:lavender;
+}
+
+.mycontainer .e:hover{
+	background-color: #e9e9f4;
+}
+
+.mycontainer .e{
+	transition: all 0.3s ease 0s;
+}
+
+.main{
+	margin-bottom: 20px;
+}
+
+img .A .B .C .D .E{
+	margin-left: 50px;
+}
+
+.back-btn {
+    background-color: lightpink;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.back-btn:hover {
+    background-color: gray; /* Darker shade on hover */
+    color: white; /* Change text color on hover */
+}

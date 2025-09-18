@@ -1,0 +1,284 @@
+/*Form Styling */
+.content2 {
+    flex: 1;
+    padding: 20px;
+    margin: auto;
+    background-color: #e0ffff; /* Light cyan background */
+}
+
+.content1 {
+    flex: 1; /* Allows content to take up remaining space */
+    padding: 20px;
+    margin: auto;
+}
+
+.content2 form {
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+    background-color: transparent; /* Remove background color */
+    box-shadow: none; /* Remove shadow */
+    border: none; /* Remove border */
+}
+
+.content1 form {
+    margin-top: 20px; /* Added margin to top */
+    border: 2px solid var(--border-color);
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%; /* Increased width of form in content1 */
+    margin: auto;
+    background-color: var(--secondary-color);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content2 table {
+    margin-top: 10px;
+    padding: 0px; /* Reduced padding */
+    background-color: transparent; /* Remove background color */
+    width: 100%; /* Make table full width */
+    margin: auto;
+    border-collapse: collapse;
+    box-shadow: none; /* Remove shadow */
+    border: none; /* Remove border */
+}
+
+.content1 table {
+    margin-top: 10px; /* Added margin to top */
+    border: 2px solid var(--border-color);
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fff;
+    width: 95%; /* Wider Table */
+    margin: auto;
+    border-collapse: collapse;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content2 table th {
+    background-color: transparent; /* Remove background color */
+    font-weight: bold;
+    text-align: left; /* Align text to the left */
+    padding: 5px 0; /* Reduce padding */
+}
+
+.content1 table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.content2 table td {
+    border-bottom: none; /* Remove border */
+    padding: 5px 0; /* Reduce padding */
+}
+
+.content1 table td {
+    border-bottom: 1px solid #ddd;
+}
+
+.content2 table th,
+.content2 table td {
+    text-align: left;
+    padding: 5px 0; /* Reduce padding */
+}
+
+.content1 table th,
+.content1 table td {
+    text-align: left;
+    padding: 10px;
+}
+
+.content2 table tr:hover {
+    background-color: transparent; /* Remove hover effect */
+}
+
+.content1 table tr:hover {
+    background-color: var(--hover-color);
+}
+
+.content2 input[type="text"],
+.content2 input[type="password"],
+.content2 input[type="number"],
+.content2 input[type="date"],
+.content2 input[type="time"],
+.content2 input[type="datetime-local"],
+.content2 input[type="file"],
+.content2 input[type="email"] {
+    width: 100%; /* Full width input */
+    height: 25px;
+    border-radius: 0px; /* Remove border radius */
+    padding-left: 5px; /* Reduce padding */
+    margin-bottom: 5px;
+    border: 1px solid #ccc; /* Light gray border */
+}
+
+.content1 form input[type="text"],
+.content1 form input[type="password"],
+.content1 form input[type="number"],
+.content1 form input[type="date"],
+.content1 form input[type="time"],
+.content1 form input[type="datetime-local"],
+.content1 form input[type="email"],
+.content1 form select {  /* Include select elements */
+    width: 70%;  /* Let them take up most of the container */
+    height: 25px;
+    border-radius: 15px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    border: 1px solid var(--border-color);
+    display: block; /* Ensure they take up the full width */
+}
+
+.content1 form table td { /* added */
+    width: 100%;
+    display: inline-block;
+}
+
+.content2 input[type="submit"],
+.content2 input[type="reset"] {
+    background-color: #ddd; /* Light gray button */
+    border-radius: 0px; /* Remove border radius */
+    height: 30px; /* Reduced height */
+    cursor: pointer;
+    width: auto; /* Adjust width to content */
+    padding: 5px 10px; /* Adjusted padding */
+    margin-top: 10px;
+    border: 1px solid #ccc; /* Add a border */
+}
+
+.content1 input[type="submit"],
+.content1 input[type="reset"] {
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    height: 35px;
+    cursor: pointer;
+    width: 45%; /* Make the button wider */
+    padding: 10px;
+    margin-top: 10px; /* Add some space above the buttons */
+}
+
+.content2 table button {
+    color: var(--text-color);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+}
+
+.content1 table button {
+    color: var(--text-color);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+}
+
+.content2 textarea {
+    width: 100%;
+    height: 100px; /* Reduced height */
+    border-radius: 0px; /* Remove border radius */
+    padding-left: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc; /* Light gray border */
+    resize: vertical;
+}
+
+.content1 textarea {
+    width: 95%;
+    height: 150px;
+    border-radius: 15px;
+    padding-left: 10px;
+    margin-bottom: 5px; /* Increased margin-bottom */
+    border: 1px solid var(--border-color);
+    resize: vertical;
+}
+
+.warning-message {
+    color: red;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.event-image {
+    width: 200px;
+    height: auto;
+    object-fit: cover; /* Optional: maintain aspect ratio */
+}
+
+.activity-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive columns */
+    gap: 20px;
+    padding: 20px;
+}
+
+.activity-image {
+    width: 200px;
+    height: auto;
+    object-fit: cover; /* Maintain aspect ratio */
+    border-radius: 5px;
+}
+
+.data-box {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.data-box h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.data-box p {
+    margin-bottom: 5px;
+}
+
+.btn_join {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+select, input[type="text"], input[type="number"], input[type="date"], input[type="email"], input[type="file"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.activity_event_dropdown {
+    display: none; /* Initially hide the second dropdown */
+}
+
+button .back-btn {
+    background-color: lightpink;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+button .back-btn:hover {
+    background-color: gray; /* Darker shade on hover */
+    color: white; /* Change text color on hover */
+}

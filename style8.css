@@ -1,0 +1,111 @@
+/* General Layout */
+.content {
+    width: 80%;
+    margin: auto;
+}
+
+/* Content area */
+.content {
+    min-height: calc(100vh - 60px); /* Ensures footer stays at bottom */
+    padding-bottom: 50px;
+}
+
+/* Table styles */
+.content table {
+    margin-top: 20px;
+    border: 2px solid #ddd; /* Slightly darker border */
+    border-radius: 8px;
+    background-color: #fff;
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.content table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.content table td {
+   padding-top: 5px;
+   padding-bottom: 5px;
+   border-bottom: 1px solid #ddd;
+}
+
+/* Hover effect for table rows */
+.content table tr:hover {
+   background-color: #e0f7fa; /* Softer highlight color */
+}
+
+/* Styles for Action Buttons */
+.content table td:last-child {
+   text-align: center; /* Center buttons */
+}
+
+.content table button[type="submit"] {
+   background-color: lightblue;
+   border-radius: 5px;
+   border: none;
+   padding: 5px 10px; /* More padding for buttons */
+   cursor: pointer; /* Pointer cursor for buttons */
+   margin-right: 5px; /* Space between buttons */
+}
+
+.content table button[type="submit"]:hover {
+   background-color: deepskyblue; /* Hover effect for buttons */
+}
+
+/* Form styles */
+.content form {
+   margin-top: 20px; /* Space above forms */
+}
+
+/* Input styles */
+.content input[type="text"],
+.content input[type="email"],
+.content input[type="number"],
+.content input[type="date"],
+.content input[type="datetime-local"],
+.content textarea,
+.content input[type="file"] {
+   width: calc(100% - 20px); /* Full width minus padding */
+   padding: 10px; /* Padding for better usability */
+   border-radius: 5px; /* Rounded corners for inputs */
+   border: 1px solid #ccc; /* Light border for inputs */
+   margin-bottom: 10px; /* Space between inputs */
+}
+
+/* General Button Styles */
+.back-btn .Add_A{
+    background-color: lightpink;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.back-btn:hover {
+    background-color: gray; /* Darker shade on hover */
+    color: white; /* Change text color on hover */
+}
+
+/* Warning Message Style */
+.warning-message {
+   color: red; /* Warning message color */
+}
+
+/* Success Message Style */
+.success-message {
+   color: green; /* Success message color */
+}
+
+/* Footer styles (if applicable) */
+.footer {
+   position: relative;
+   bottom: 0;
+   width: 80%;
+}
+
+
